@@ -16,7 +16,12 @@ const Navbar = () => {
         <Link href="/"></Link>
       </div>
       {/* responsive menu */}
-      <div className=""></div>
+      {/* menu button */}
+        <button className="flex flex-col justify-between w-10 h-8">
+        <div className="w-10 h-1 bg-black rounded"></div>
+        <div className="w-10 h-1 bg-black rounded"></div>
+        <div className="w-10 h-1 bg-black rounded"></div>
+        </button>
     </div>
   );
 };
