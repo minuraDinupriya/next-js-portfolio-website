@@ -31,6 +31,30 @@ const Navbar = () => {
     opened: { rotate: -45, backgroundColor: "rgb(255,255,255)" },
   };
 
+  const listVariants = {
+    closed: {
+      x: "100vw",
+    },
+    opened: {
+      x: 0,
+      transition:{
+        when:"beforeChildren",
+        staggerChildren:0.2,
+      },
+    },
+  };
+
+  const listItemVarients={
+    closed:{
+      x:-10,
+      opacity:0
+    },
+    opened:{
+      x:0,
+      opacity:1
+    }
+  }
+
   return (
     <div className="h-full flex items-center justify-between motion.">
       {/* links */}
@@ -100,13 +124,18 @@ const Navbar = () => {
         </button>
         {/* menu list */}
         {open && (
-          <div className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col justify-center items-center gap-8 text-4xl">
+          <motion.div
+            variants={listVariants}
+            initial="closed"
+            animate="opened"
+            className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col justify-center items-center gap-8 text-4xl z-40"
+          >
             {links.map((link, index) => (
-              <Link href={link.url} key={index}>
-                {link.title}
-              </Link>
+              <motion.div variants={listItemVarients} className="" key={index}>
+                <Link href={link.url}>{link.title}</Link>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         )}
       </div>
     </div>
