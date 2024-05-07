@@ -1,6 +1,13 @@
+import { motion } from "framer-motion";
+
 const About=()=>{
     return (
-        <div className="">About</div>
+        <motion.div
+      className="h-full"
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+    ></motion.div>
     )
 }
 
