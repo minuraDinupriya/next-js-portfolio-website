@@ -37,26 +37,26 @@ const Navbar = () => {
     },
     opened: {
       x: 0,
-      transition:{
-        when:"beforeChildren",
-        staggerChildren:0.2,
+      transition: {
+        when: "beforeChildren",
+        staggerChildren: 0.2,
       },
     },
   };
 
-  const listItemVarients={
-    closed:{
-      x:-10,
-      opacity:0
+  const listItemVarients = {
+    closed: {
+      x: -10,
+      opacity: 0,
     },
-    opened:{
-      x:0,
-      opacity:1
-    }
-  }
+    opened: {
+      x: 0,
+      opacity: 1,
+    },
+  };
 
   return (
-    <div className="h-full flex items-center justify-between motion.">
+    <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
       {/* links */}
       <div className="hidden md:flex gap-4 w-1/3 justify-center">
         {links.map((link) => (
