@@ -49,39 +49,39 @@ const About = () => {
             <h1 className="font-bold text-2xl">SKILLS</h1>
             {/* SKILL LIST */}
             <div className="flex flex-wrap gap-4">
-            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-              JavaScript
-            </div>
-            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-              JavaScript
-            </div>
-            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-              JavaScript
-            </div>
-            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-              JavaScript
-            </div>
-            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-              JavaScript
-            </div>
-            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-              JavaScript
-            </div>
-            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-              JavaScript
-            </div>
-            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-              JavaScript
-            </div>
-            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-              JavaScript
-            </div>
-            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-              JavaScript
-            </div>
-            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-              JavaScript
-            </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JavaScript
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JavaScript
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JavaScript
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JavaScript
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JavaScript
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JavaScript
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JavaScript
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JavaScript
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JavaScript
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JavaScript
+              </div>
+              <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JavaScript
+              </div>
             </div>
             <div className=""></div>
             {/* SKILL SCROLL SVG */}
@@ -103,7 +103,9 @@ const About = () => {
             </div>
           </div>
           {/* EXPERIENCE CONTAINER */}
-          <div className="">EXPERIENCE</div>
+          <div className="flex flex-col gap-12 justify-center">
+            <h1 className="font-bold text-2xl">EXPERIENCE</h1>
+          </div>
         </div>
 
         {/* SVG CONTAINER */}
