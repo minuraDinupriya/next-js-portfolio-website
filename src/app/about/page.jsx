@@ -104,7 +104,107 @@ const About = () => {
           </div>
           {/* EXPERIENCE CONTAINER */}
           <div className="flex flex-col gap-12 justify-center">
+            {/* EXPERIENCE TITLE */}
             <h1 className="font-bold text-2xl">EXPERIENCE</h1>
+            {/* EXPERIENCE LIST */}
+            <div>
+
+              {/* EXPERIENCE LIST ITEM 1*/}
+              <div>
+                {/* LEFT */}
+                <div>
+                  {/* JOB TITLE */}
+                  <div>Intern software developer</div>
+                  {/* JOB DESCRIPTION */}
+                  <div>
+                    My first ever industry experience. Learning day by day.
+                  </div>
+                  {/* JOB DATE */}
+                  <div>
+                    2024 february - present
+                  </div>
+                  {/* COMPANY NAME */}
+                  <div>
+                    Techcciance
+                  </div>
+                </div>
+                {/* CENTER */}
+                <div>
+                  {/* LINE */}
+                  <div>
+                    {/* LINE CIRCLE */}
+                    <div></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div></div>
+              </div>
+
+              {/* EXPERIENCE LIST ITEM 2*/}
+              <div>
+                {/* LEFT */}
+                
+                </div>
+                {/* CENTER */}
+                <div>
+                  {/* LINE */}
+                  <div>
+                    {/* LINE CIRCLE */}
+                    <div></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div>
+                <div>
+                  {/* JOB TITLE */}
+                  <div>Intern software developer</div>
+                  {/* JOB DESCRIPTION */}
+                  <div>
+                    My first ever industry experience. Learning day by day.
+                  </div>
+                  {/* JOB DATE */}
+                  <div>
+                    2024 february - present
+                  </div>
+                  {/* COMPANY NAME */}
+                  <div>
+                    Techcciance
+                  </div>
+                </div>
+              </div>
+
+              {/* EXPERIENCE LIST ITEM 3*/}
+              <div>
+                {/* LEFT */}
+                <div>
+                  {/* JOB TITLE */}
+                  <div>Intern software developer</div>
+                  {/* JOB DESCRIPTION */}
+                  <div>
+                    My first ever industry experience. Learning day by day.
+                  </div>
+                  {/* JOB DATE */}
+                  <div>
+                    2024 february - present
+                  </div>
+                  {/* COMPANY NAME */}
+                  <div>
+                    Techcciance
+                  </div>
+                </div>
+                {/* CENTER */}
+                <div>
+                  {/* LINE */}
+                  <div>
+                    {/* LINE CIRCLE */}
+                    <div></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div></div>
+              </div>
+
+            </div>
           </div>
         </div>
 
