@@ -12,7 +12,7 @@ const About = () => {
       {/* About container */}
       <div className="h-full overflow-scroll">
         {/* TEXT CONTAINER */}
-        <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 text-xl flex flex-col gap-24 md:m-32 lg:gap-40 xl:gap-64">
+        <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 text-xl flex flex-col gap-24 md:m-32 lg:gap-40 xl:gap-64 lg:w-2/3 xl:w-1/2 lg:pr-0">
           {/* BIOGRAPHY CONTAINER */}
           <div className="flex flex-col gap-12 justify-center">
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
@@ -208,7 +208,7 @@ const About = () => {
         </div>
 
         {/* SVG CONTAINER */}
-        <div className="hidden"></div>
+        <div className="hidden lg:block lg:w-1/3 xl:w-1/2"></div>
       </div>
     </motion.div>
   );
