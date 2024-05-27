@@ -75,13 +75,20 @@ const PortfolioPage = () => {
                     {item.desc}
                   </p>
                   <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
+                      See Demo
+                    </button>
                   </Link>
                 </div>
               </div>
             ))}
           </motion.div>
         </div>
+      </div>
+
+      <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
+        <h1 className="text-8xl">Do you have a project?</h1>
+        
       </div>
     </motion.div>
   );
