@@ -88,7 +88,18 @@ const PortfolioPage = () => {
 
       <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
         <h1 className="text-8xl">Do you have a project?</h1>
-        
+        <div className="relative">
+          <motion.svg
+            animate={{ rotate: 360 }}
+            transition={{ duration: 8, ease: "linear", repeat: Infinity }}
+            viewBox="0 0 300 300"
+            className="w-64 h-64 md:w-[500px] md:h-[500px] "
+          >
+            
+            
+          </motion.svg>
+          
+        </div>
       </div>
     </motion.div>
   );
