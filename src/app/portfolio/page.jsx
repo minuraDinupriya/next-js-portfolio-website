@@ -95,10 +95,18 @@ const PortfolioPage = () => {
             viewBox="0 0 300 300"
             className="w-64 h-64 md:w-[500px] md:h-[500px] "
           >
-            
-            
+            <defs>
+              <path
+                id="circlePath"
+                d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
+              />
+            </defs>
+            <text fill="#000">
+              <textPath xlinkHref="#circlePath" className="text-xl">
+                Front-end Developer and UI Designer
+              </textPath>
+            </text>
           </motion.svg>
-          
         </div>
       </div>
     </motion.div>
