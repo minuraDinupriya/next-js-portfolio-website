@@ -4,6 +4,11 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(false);
+  const text = "Say Hello";
+
+  const form = useRef();
   return (
     <motion.div
       className="h-full"
