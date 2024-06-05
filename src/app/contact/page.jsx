@@ -83,6 +83,11 @@ const ContactPage = () => {
               Your message has been sent successfully!
             </span>
           )}
+          {error && (
+            <span className="text-red-600 font-semibold">
+              Something went wrong!
+            </span>
+          )}
         </form>
       </div>
     </motion.div>
