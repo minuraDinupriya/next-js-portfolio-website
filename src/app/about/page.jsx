@@ -2,7 +2,6 @@
 import Brain from "@/components/brain";
 import Sign from "@/components/sign";
 import { motion, useInView, useScroll } from "framer-motion";
-import Image from "next/image";
 import { useRef } from "react";
 
 const AboutPage = () => {
